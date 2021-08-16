@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank Details</title>
+    <link rel="stylesheet" href="public/tailwind.css">
+</head>
+
+<body class="bg-blue-200">
+
+    <header>
+        <div class="bank_heading">
+            <div class="lg:container mx-auto">
+                <h1 class="text-gray-400 font-bold text-5xl text-center mt-12">Welcome To <span
+                        class="text-purple-400">My
+                        Bank</span></h1>
+                <p class="text-xl text-center mt-4 font-semibold text-gray-400	">World Best Banking</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="bank-transetion">
+            <div class="lg:container mx-auto">
+                <div class="hisab">
+                    <div class="grid grid-cols-3 gap-5 mt-3">
+                        <div class="bg-gray-400 p-12 rounded-xl overflow-hidden">
+                            <h3 class="text-center text-4xl text-yellow-100">Deposit</h3>
+                            <h1 class="text-center text-6xl text-white">$<span id="deposit_current">00</span></h1>
+                        </div>
+
+                        <div class="bg-purple-400 p-12 rounded-xl">
+                            <h3 class="text-center text-4xl text-yellow-100">Withdraw</h3>
+                            <h1 class="text-center text-6xl text-white overflow-hidden">$<span
+                                    id="current_withdraw">00</span></h1>
+                        </div>
+
+                        <div class="bg-green-400 p-12 rounded-xl">
+                            <h3 class="text-center text-4xl text-yellow-100">Balance</h3>
+                            <h1 class="text-center text-6xl text-white">$<span id="current_balance">4500</span></h1>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-6 mt-6">
+                        <div class="money_deposit bg-red-200 p-12 rounded-xl">
+                            <h1 class="text-2xl font-medium mb-2">Please Deposit</h1>
+                            <input id="deposit_input" class="w-3/4 p-2 rounded bg-gray-100" placeholder="$Deposit Money"
+                                type="text">
+                            <button id="deposit_btn"
+                                class="block mt-3 bg-red-500 px-6 py-2 rounded text-white font-medium">Deposit</button>
+                        </div>
+
+                        <div class="money_deposit bg-pink-300 p-12 rounded-xl">
+                            <h1 class="text-2xl font-medium mb-2">Please Withdraw</h1>
+                            <input id="withdraw_input" class="w-3/4 p-2 rounded bg-gray-100"
+                                placeholder="$Withdraw Money" type="text">
+                            <button id="withdraw_btn"
+                                class="block mt-3 bg-red-500 px-6 py-2 rounded text-white font-medium">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/banking.js"></script>
+</body>
+
+</html>
