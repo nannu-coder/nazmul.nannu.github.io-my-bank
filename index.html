@@ -1,53 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banking</title>
-    <link rel="stylesheet" href="public/tailwind.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="public/tailwind.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body class="bg-purple-200">
-
+  <body class="bg-purple-200">
     <header>
-        <div class="head_top">
-            <div class="lg:container mx-auto ">
-                <div class="input_field bg-white shadow-lg rounded-2xl w-6/12 mx-auto p-5 mt-24">
-                    <div class="user_avatar">
-                        <img class="object-fill	w-16 mx-auto" src="img/user.png" alt="user.png">
-                    </div>
-                    <div class="heading">
-                        <h1 class="text-5xl text-center font-bold text-yellow-500 mt-2 font-Roboto">Welcome To My Bank
-                        </h1>
-                    </div>
-                    <div class="form text-center">
-                        <div>
-                            <input id="user_email"
-                                class="w-8/12 border-2 rounded mt-7 py-2 px-3 bg-purple-100 block mx-auto" type="email"
-                                name="#" id="#" placeholder="Your Email">
-                            <input id="user_password"
-                                class="w-8/12 border-2 rounded mt-4 py-2 px-3 bg-purple-100 block mx-auto"
-                                type="password" name="#" id="#">
-                            <button id="login" class="w-8/12 border-2 rounded mt-4 text-lg font-bold bg-blue-300 py-2 text-white
-                                border-2 border-blue-300 hover:bg-blue-500 hover:border-blue-500">Login</button>
-                            <a class="block mt-4 text-blue-500 form_ps mb-1" href="#">Forgotten Password</a>
-                            <hr>
-                            <button class="w-5/12 border-2 rounded mt-4 text-lg font-bold bg-yellow-500 py-2 text-white text-xl
-                                border-2 border-yellow-500 px-1">Create New Account</button>
-                        </div>
-                    </div>
-                </div>
+      <div class="head_top">
+        <div class="lg:container mx-auto">
+          <div
+            class="input_field bg-white shadow-lg rounded-2xl w-6/12 mx-auto p-5 mt-24"
+          >
+            <div class="user_avatar">
+              <img
+                class="object-fill w-16 mx-auto"
+                src="img/user.png"
+                alt="user.png"
+              />
             </div>
+            <div class="heading">
+              <h1
+                class="text-5xl text-center font-bold text-yellow-500 mt-2 font-Roboto"
+              >
+                Welcome To My Bank
+              </h1>
+              <p>Email: bank@bank.com</p>
+              <p>Password: password</p>
+            </div>
+            <div class="form text-center">
+              <div>
+                <input
+                  id="user_email"
+                  class="w-8/12 border-2 rounded mt-7 py-2 px-3 bg-purple-100 block mx-auto"
+                  type="email"
+                  name="#"
+                  id="#"
+                  placeholder="Your Email"
+                />
+                <input
+                  id="user_password"
+                  class="w-8/12 border-2 rounded mt-4 py-2 px-3 bg-purple-100 block mx-auto"
+                  type="password"
+                  name="#"
+                  id="#"
+                />
+                <button
+                  id="login"
+                  class="w-8/12 border-2 rounded mt-4 text-lg font-bold bg-blue-300 py-2 text-white border-2 border-blue-300 hover:bg-blue-500 hover:border-blue-500"
+                >
+                  Login
+                </button>
+                <a class="block mt-4 text-blue-500 form_ps mb-1" href="#"
+                  >Forgotten Password</a
+                >
+                <hr />
+                <button
+                  class="w-5/12 border-2 rounded mt-4 text-lg font-bold bg-yellow-500 py-2 text-white text-xl border-2 border-yellow-500 px-1"
+                >
+                  Create New Account
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
 
-
     <!--=====font awesome kit=====-->
-    <script src="https://kit.fontawesome.com/a998b9b41f.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a998b9b41f.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
